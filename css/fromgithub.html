@@ -1,0 +1,80 @@
+<div class="part-2 projects">
+			<h2 id="projectsH2" class="section-name">PROJECTS</h2>
+			<div id="projects">
+				<div class="slideshow">
+
+					<div class="mySlides fade">
+						<div class="col-6 projectDesc">
+							<p class="project-name">Project - Orienteering event</p>
+							<p class="projectDescription">This project was part of the university course - Project work. <br> The product was NFC-based orienteering application for smartphones. The purpose of this app is running orienteering event settled down in advance with the tags specified on the map. <br> The user is able to go through all NFC control points and finish his track at any time</p>
+							<p class="duty">Duty: design of the user interface</p>
+						</div>
+						<iframe width="438" height="930" src="https://invis.io/M588I8B7E" frameborder="0" ></iframe>
+					</div>
+
+
+
+					<div class="mySlides fade">
+						<div class="projectDesc">
+							<p class="project-name">Color Your Time</p>
+							<p class="projectDescription">This project was part of the university course - User Experience: Design and Evaluation. During this course my team and I created the concept of helping people to manage their time with the simple progressive bar</p>
+
+							<p class="projectDescription">During user study it was revealed that different progressive bar (increasing or decreasing) affects user's time perception. The increasing progressive bar says about task accomplishment, while decreasing progressive bar is about need to finish task as soon as possible. Moreover, when the task had been finished before the end of the progressive bar, users were more happier. </p>
+
+							<p class="projectDescription">Besides the direction of the progressive bar, its color was also significant for users. The red and green colors were considered as standards, however users also preferred to have opportunity to alter them according their own color associations. </p>
+
+							<p class="projectDescription">Desktop progressive bar is suitable for working or studying. There are also other activities, where time reminding is important. For example, sport activities, official meetings, presentations. For this reason we created the prototype of mobile app, where progressive bar can be projected on the wall or other surface with the special equipment. </p>
+							<p class="duty">Duty: concept development, user study, development of prototype, evaluation</p>
+						</div>
+						
+						
+						<iframe class="colorYT" width="872" height="496" src="https://invis.io/A98AHUGES" frameborder="0" ></iframe>
+						
+						
+					</div>
+
+					<div class="mySlides fade">
+
+						<img src="img/slide2.png" alt="UI of orienteering event app" style="width:99%">
+					</div>
+
+					
+
+				    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				
+				<div style="text-align:center">
+  					<span class="dot" onclick="currentSlide(1)"></span> 
+  					<span class="dot" onclick="currentSlide(2)"></span> 
+  					<span class="dot" onclick="currentSlide(3)"></span> 
+  				</div>
+
+  				<!--slides in PROJECTS section-->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</div>
+		</div>
