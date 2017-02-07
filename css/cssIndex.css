@@ -295,12 +295,6 @@ button{
 	padding-left: 0px;
 }
 
-.mySkills:hover{
-	opacity: 1;
-	color: #60c9de;
-	font-size: 20px;
-}
-
 .mySkills li{
 	list-style: none;
 }
