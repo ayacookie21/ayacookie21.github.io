@@ -280,6 +280,7 @@ button{
 #mySkills h1{
 	color: #60c9de;
 }
+
 .mySkills{
 	min-height: 330px;
 	list-style: none;
@@ -290,7 +291,9 @@ button{
 }
 
 
-
+.skill{
+	padding-left: 0px;
+}
 
 .mySkills:hover{
 	opacity: 1;
