@@ -1,0 +1,33 @@
+.deliveryInfo{
+	font-weight: bold;
+	
+}
+
+hr{
+	color:black;
+}
+
+.my-btn{
+	border:none;
+	color:black;
+}
+
+/*route*/
+
+#mapPlaceholder{
+	width: 100%;
+	height:400px;
+
+}
+
+.pickUpButton{
+	padding-top: 15px;
+	float:left;
+
+}
+
+.deliverButton{
+	padding-top: 15px;	
+	float: right;
+}
+/*route end*/
